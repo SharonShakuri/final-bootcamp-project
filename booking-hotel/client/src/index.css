@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* lightmode */
+
+.bg {
+  @apply bg-lightMode-bg text-lightMode-divText;
+}
+
+.div {
+  @apply bg-lightMode-div text-lightMode-divText;
+}
+
+.nav {
+  @apply bg-gray-400  text-lightMode-divText;
+}
+
+.bg {
+  @apply bg-lightMode-div text-lightMode-divText;
+}
+
+.h1 {
+  @apply text-lightMode-h1;
+}
+
+.input {
+  @apply bg-lightMode-input text-lightMode-inputText;
+}
+
+.href {
+  @apply hover:text-lightMode-href;
+}
+
+.btn {
+  @apply bg-lightMode-btn text-lightMode-btnText hover:text-lightMode-btnHoverText;
+}
+
+/* darkmode */
+.dark .bg {
+  @apply bg-darkMode-bg text-darkMode-divText;
+}
+
+.dark .bg {
+  @apply bg-darkMode-bg text-darkMode-divText;
+}
+
+.dark .div {
+  @apply bg-darkMode-div text-darkMode-divText;
+}
+
+.dark .h1 {
+  @apply text-darkMode-h1;
+}
+.dark .h2 {
+  @apply text-darkMode-h1;
+}
+
+.dark .input {
+  @apply bg-darkMode-input text-darkMode-inputText;
+}
+
+.dark .href {
+  @apply hover:text-lightMode-href hover:border-lightMode-href;
+}
+
+.dark .btn {
+  @apply bg-darkMode-btn text-darkMode-btnText hover:text-darkMode-btnHoverText;
+}
+
+.dark .bg2 {
+  @apply bg-darkMode-bg text-darkMode-divText;
+}
+.dark .div4 {
+  @apply bg-darkMode-bg text-darkMode-divText;
+}
+
+.highlight {
+  background-color: yellow;
+}
